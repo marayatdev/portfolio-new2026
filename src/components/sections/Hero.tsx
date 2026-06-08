@@ -126,7 +126,7 @@ export default function Hero() {
                     </div>
                 </FadeUp>
 
-                <FadeUp delay={0.6}>
+                {/* <FadeUp delay={0.6}>
                     <div
                         className="
                             flex
@@ -146,7 +146,7 @@ export default function Hero() {
                             Contact Me
                         </Button>
                     </div>
-                </FadeUp>
+                </FadeUp> */}
 
             </div>
         </section>

@@ -106,7 +106,7 @@ export default function Contact() {
                                     hover:bg-blue-700
                                 "
                             >
-                                <a href="mailto:your-email@gmail.com">
+                                <a href="chawalit.work.2001@gmail.com">
                                     <FaEnvelope />
                                     Email Me
                                 </a>
@@ -150,7 +150,7 @@ export default function Contact() {
                                     "
                                 >
                                     <a
-                                        href="https://github.com/your-github"
+                                        href="https://github.com/marayatdev"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
