@@ -224,25 +224,34 @@ export default function Projects() {
 
                                         {/* Buttons */}
 
+                                        {/* Buttons */}
                                         <div className="flex gap-4">
 
                                             <Button
+                                                asChild
                                                 variant="outline"
-                                                className="
-                                                    border-blue-200
-                                                    hover:border-blue-400
-                                                "
+                                                className="border-blue-200 hover:border-blue-400"
                                             >
-                                                GitHub
+                                                <a
+                                                    href={project.github}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    GitHub
+                                                </a>
                                             </Button>
 
                                             <Button
-                                                className="
-                                                    bg-blue-600
-                                                    hover:bg-blue-700
-                                                "
+                                                asChild
+                                                className="bg-blue-600 hover:bg-blue-700"
                                             >
-                                                Live Demo
+                                                <a
+                                                    href={project.demo}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    Live Demo
+                                                </a>
                                             </Button>
 
                                         </div>

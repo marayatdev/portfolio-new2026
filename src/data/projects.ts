@@ -3,7 +3,7 @@
 export const projects = [
   {
     id: "01",
-    title: "Starter Auth App",
+    title: "Starter Auth App (work in progress)",
     description:
       "A fullstack authentication system featuring user registration, secure login, JWT-based authentication with refresh token support, and editable user profile management.",
     tech: ["React", "Node.js", "MongoDB", "Docker"],
